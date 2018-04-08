@@ -1,4 +1,4 @@
-package dz.spring.second.dao.AccountDao;
+package dz.spring.second.dao.accountdao;
 
 import dz.spring.second.domain.Account;
 import org.springframework.jdbc.core.RowMapper;

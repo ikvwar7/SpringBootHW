@@ -1,7 +1,5 @@
 package dz.spring.second.dao.OwnerDao;
 
-import dz.spring.second.dao.AccountDao.AccountRowMapper;
-import dz.spring.second.dao.CompanyDao.CompanyRowMapper;
 import dz.spring.second.domain.Owner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

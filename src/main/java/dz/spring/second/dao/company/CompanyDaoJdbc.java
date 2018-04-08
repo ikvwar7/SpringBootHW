@@ -1,4 +1,4 @@
-package dz.spring.second.dao.CompanyDao;
+package dz.spring.second.dao.companydao;
 
 import dz.spring.second.domain.Company;
 import org.springframework.beans.factory.annotation.Autowired;
