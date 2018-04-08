@@ -1,4 +1,4 @@
-package dz.spring.second.dao.accountdao;
+package dz.spring.second.dao.account;
 
 import dz.spring.second.domain.Account;
 

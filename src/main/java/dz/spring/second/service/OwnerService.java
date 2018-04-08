@@ -1,6 +1,6 @@
 package dz.spring.second.service;
 
-import dz.spring.second.dao.OwnerDao.OwnerDao;
+import dz.spring.second.dao.owner.OwnerDao;
 import dz.spring.second.domain.Owner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -34,7 +34,7 @@ public class OwnerService {
         return ownerDao.getAll();
     }
 
-    public List<Owner> getAllByComapnyd(Long companyId) {
+    public List<Owner> getAllByCompanyId(Long companyId) {
         return ownerDao.getAllByCompanyId(companyId);
     }
 }

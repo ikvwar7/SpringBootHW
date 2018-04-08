@@ -36,8 +36,6 @@ public class CompanyController {
 
     @GetMapping("/{id}/owners")
     List<Owner> findOwnersByCompanyId(@PathVariable("id") Long id) {
-        Company company = companyService.getById(id);
-        Long companyId = company.getId();
-        return ownerService.getAllByComapnyd(companyId);
+        return ownerService.getAllByCompanyId(id);
     }
 }

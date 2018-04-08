@@ -1,4 +1,4 @@
-package dz.spring.second.dao.companydao;
+package dz.spring.second.dao.company;
 
 import dz.spring.second.domain.Company;
 

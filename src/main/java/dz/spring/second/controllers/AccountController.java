@@ -1,6 +1,5 @@
 package dz.spring.second.controllers;
 
-import dz.spring.second.dao.AccountDao.AccountDaoJdbc;
 import dz.spring.second.domain.Account;
 import dz.spring.second.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;

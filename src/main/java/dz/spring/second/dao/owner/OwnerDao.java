@@ -1,4 +1,4 @@
-package dz.spring.second.dao.OwnerDao;
+package dz.spring.second.dao.owner;
 
 import dz.spring.second.domain.Owner;
 

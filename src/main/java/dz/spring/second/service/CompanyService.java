@@ -1,6 +1,6 @@
 package dz.spring.second.service;
 
-import dz.spring.second.dao.CompanyDao.CompanyDao;
+import dz.spring.second.dao.company.CompanyDao;
 import dz.spring.second.domain.Company;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

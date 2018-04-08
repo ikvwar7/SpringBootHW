@@ -25,8 +25,6 @@ public class OwnerController {
         return ownerService.getAll();
     }
 
-    ;
-
     @GetMapping("/{id}")
     Owner findById(@PathVariable("id") Long id) {
         return ownerService.getById(id);
@@ -39,9 +37,7 @@ public class OwnerController {
 
     @GetMapping("/{id}/accounts")
     List<Account> findAccountsByOwnerId(@PathVariable("id") Long id) {
-        Owner owner = ownerService.getById(id);
-        Long ownerId = owner.getId();
-        return accountService.getAllByOwnerId(ownerId);
+        return accountService.getAllByOwnerId(id);
     }
 
 }
